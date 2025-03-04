@@ -1,11 +1,12 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import './index.css'
 import './App.css'
 
 function App() {
   return (
-    <>
+    <div>
       <header className="header">
         <h1 className="header-left">Vegetables</h1>
         <div className="header-right">
@@ -53,7 +54,7 @@ function App() {
       <footer className="footer">
         <p>Copyrights 2017 Vegetables cise / Design by Vegetables</p>
       </footer>
-    </>
+    </div>
   )
 }
 
